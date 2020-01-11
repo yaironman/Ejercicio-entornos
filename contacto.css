@@ -1,1 +1,302 @@
+header h1 {
+  color: blue;
+  text-align: center;
+	 background-color: orange;
+	border-style: solid;
+}
+
+.principal h2 {
+
+	text-align: center;
+	color :black;
+	
+	width: 100%
+
+}
+
+/*Aquí empieza el mapa*/
+
+.principal p {
+
+
+	
+  
+color: black;
+width: 80%;
+padding: 5px;
+
+}
+
+.texto {
+
+	border: none;
+border-radius: 5px;
+background-color: beige;
+}
+
+
+.principal iframe {
+
+
+	width: 100%;
+
+}
+
+/*Aquí acaba el mapa*/
+
+
+/*Aquí empieza el formulario*/
+
+
+form {
+    
+    margin: 0 auto;
+    width: 90%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+}
+
+input, textarea {
+    
+    font: 1em sans-serif;
+    width: 90%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+
+    height: 5em;
+
+    resize: vertical;
+}
+
+.button {
+    padding-left: 30px; 
+}
+button {
+    margin-left: .5em;}
+
+
+    /*Aquí termina el formulario*/
+
+footer {
+  min-height: 70px;
+  background-color: #191919;
+  width: 100%;
+  position: relative;
+  clear: both;
+  margin-top: 0px;
+  padding-top: 15px;
+  overflow: visible;
+	color: white;
+}
+
+ aside {
+ width: 20%;
+
+  padding: 1%;
+  margin: 1%;
+	background-color: sienna;
+	float: right;
+	box-sizing: border-box;
+		
+}
+.principal {
+	width: 75%;
+	background-color: lightblue;
+	float:left;
+	box-sizing: border-box;
+	padding:5%;
+	
+}
+
+
+
+footer p {
+	
+	text-align: center;
+}
+
+aside img {
+	width: 100%
+	
+	
+}
+
+aside h3 {
+	color:violet;
+		text-align: center; 
+	background-color: chocolate;
+}
+
+header ul  {
+	background: grey;
+	color: yellowgreen;
+	list-style: none;
+	
+}
+header {
+	width: 100%;
+}
+header nav {
+	
+	width: 90%;
+	margin: 30px auto;
+	
+}
+
+.menu > li {
+	
+	position: relative;
+	display: inline-block;
+	
+	
+}
+
+.menu > li > a {
+	display: block;
+	padding:  15px 20px;
+	color: blueviolet;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
+	width: 120%;
+		
+	
+}
+
+.menu_bar {
+	display: none;
+}
+
+.menu li a:hover {
+	color:goldenrod;
+}
+
+.submenu {
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	display: none;
+}
+
+.submenu li a {
+	
+	display: block;
+	padding: 15px;
+	color: black;
+	background: white;
+}
+
+.menu li:hover .submenu {
+	display: block;
+}
+.contenedor {
+	
+	width: 100%;
+	max-width: ;
+	
+	
+}
+
+header .contenedor {
+	display:table;
+}
+.principal  img {
+	
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 800px){
+	.principal {
+		width: 100%
+			
+	}
+	
+	aside {
+		width: 100%
+	}
+	body {
+		background: pink;
+	}
+}
+
+
+@media screen and (max-width: 400px){
+	
+	header nav {
+		width: 50%;
+		
+		left: -100%;
+		margin: 0;
+		position:fixed;
+		padding: 0%;
+	}
+	 
+	.menu_bar {
+		display: block;
+		width: 100%;
+		background: grey;
+
+
+	}
+	.menu_bar .bt-menu {
+
+		display: block;
+		padding: 20px;
+		background: lightblue;
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 25px;
+
+	}
+	.menu_bar span {
+		float: left;
+		font-size: 30px;
+
+	}
+
+	header nav ul {
+		display: block;
+		float:none;
+		border-bottom:1px rgba(255,255,255,.3);
+	}
+
+	
+	.menu li {
+		position: relative;
+		display: table;
+		
+	}
+
+	.contenedor {
+		width: 100%;
+	}
+	aside {
+		display: none;
+	}
+	
+
+}
+
 
