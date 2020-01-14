@@ -37,7 +37,7 @@ body
 	font-size: 25px;
 	letter-spacing: 4px;
 	line-height: 75px;
-	background:#a36262;
+	background:#00C6EE;
 	color: white;
 	text-align: center;
 	width: 385px;
@@ -75,7 +75,7 @@ body
 
 #menu ul li:hover
 {
-	background:#a36262;
+	background:#00C6EE;
 }
 
 #menu a
