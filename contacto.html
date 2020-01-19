@@ -1,39 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<link rel="stylesheet" type="text/css" href="CSS/contacto.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Contacto</title>
+	<link rel="stylesheet" href="CSS/contacto.css">
 </head>
 <body>
 	<header>
-		<h1>Título de Ejemplo</h1>
+		<div id="logo">
+        		<h1>PRUEBA</h1>
+        	</div>
+		<div class="clearfix"></div>
+        	<nav id="menu">
+        		<ul>
+        			<li><a href="index.html">inicio</a></li>
+        			<li><a href="#">contenido</a></li>
+        			<li><a href="#">faq</a></li>
+        			<li><a href="#">sobre nosotros</a></li>
+        			<li><a href="contacto.html">contacto</a></li>
+        			
+        		</ul>
+        	</nav>
 	</header>
 
 
-	<div class="contenedor">
-		<section class="principal">
-			<h2>Ponte en contacto con nosotros</h2>
+	<div class="global" id="global">
+		<section class="" id="">
+			<h2 id="logo">Ponte en contacto con nosotros</h2>
 
-			<form action="/my-handling-form-page" method="post">
-    <div>
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" />
-    </div>
-    <div>
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" />
-    </div>
-    <div>
-        <label for="msg">Mensaje:</label>
-        <textarea id="msg"></textarea>
-    </div>
-    
-    <div class="button">
-        <button type="submit">Enviar</button>
-    </div>
-</form>
+			
+         
+             <div class="inner contact">
+					
+					  <div class="formu">
+					    
+					    <form id="contact-us" method="post" action="#">
+					   
+					      <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+					 
+					        <input type="text" name="name" id="name" required="required" class="form" placeholder="Nombre" />
+				
+					        <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+					        
+					       
+					      </div>
+					      
+					      <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+					        
+					        <textarea name="message" id="message" class="form textarea" placeholder="Dinos algo"></textarea>
+					      </div>
+					     
+					      <div class="relative fullwidth col-xs-12">
+					        
+					        <button type="submit" id="submit" name="submit" class="form-btn semibold">Enviar</button>
+					      </div>
+					      
+					      
+					      <div class="clear"></div>
+					    </form>
 
-			<h2>¿Dónde nos encontramos?</h2>
+					    
+					    <div class="mail-message-area">
+					     
+					      <div class="alert gray-bg mail-message not-visible-message">
+					        <strong>Gracias!</strong> Hemos recibido tu email.
+					      </div>
+					    </div>
+
+					  </div>
+					  
+					</div>
+			<h2 >¿Dónde nos encontramos?</h2>
 			<div class="texto">
 				<p>Nos puedes encontrar en el Instituto de Educación Secundaria IES Pedro Jiménez Montoya</p>
 			<p>Calle Isaac Peral Nº2, 18800</p>
@@ -43,44 +81,110 @@
 			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3165.958236498278!2d-2.7694672!3d37.4853119!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x30faad66bcf34f33!2sIES%20Pedro%20Jim%C3%A9nez%20Montoya!5e0!3m2!1ses!2ses!4v1578747357928!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 		</section>
 
+	</div>
 
 
 
 	</div>
-	<aside> <h3>E
-		s
-		t
-		e
-
-		 a
-		 s
-		 i
-		 d
-		 e
-
-		  b
-		  o
-		  r
-		  r
-		  a
-		  d
-		  l
-		  o
-		  ,
 
 
+<div id="asidediv">
+	
+
+		<aside>
+         <center>
+         	<div id="logo">
+         		<h2>SUSCRIBITE</h2>
+         	</div>
+         </center>
+             
+					
+					  
+					    
+					    <form id="contact-us" method="post" action="#">
+					   
+					      
+					 
+					        <input type="text" name="name" id="name" required="required" class="form" placeholder="Nombre" />
+				
+					        <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+					        
+					       
+					      
+					      
+					        
+					        <textarea name="message" id="message" class="form textarea" placeholder="Dinos algo"></textarea>
+					      
+					     
+					      
+					        
+					        <button type="submit" id="submit" name="submit" class="form-btn semibold">SUSCRIBITE</button>
+					      </div>
+					      
+					      
+					      
+					    </form>
+
+					    
+					    
+					        
+					    </div>
+
+					  
+					  
+					
+					
+      </aside>
+
+	
+</div>
+
+	
 
 
+	<div class="info-container">
+		<div class="info-main">
+			<h3></h3>
+			<p></p>
+			<a href="">Mas Informacion</a>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="footer-container">
+			<div class="footer-main">
+				<div class="footer-columna">
+					<h3>Suscríbete</h3>
+					<input type="email" placeholder="Escriba su Correo">
+					<input type="submit" value=" Suscribirse">
+				</div>
 
+				<div class="footer-columna">
+					<h3>Dirección</h3>
+					<span class="fa fa-map-marker"><p>Calle Isaac Peral, 2, 18800 Baza - Granada</p></span>
+					<span class="fa fa-phone"><p>678 79 94 26</p></span>
+					<span class="fa fa-envelope"><p>email@gmail.com</p></span>
+				</div>
 
+				<div class="footer-columna">
+					<h3>Sobre Nosotros</h3>
+					<p>Empresa dedicada al sector de la informática desde 1999<p>
+				</div>
+			</div>
+		</div>
 
-
-
-
-
-	 es solo para saber como queda                                                                    </h3>     .</aside>
-
-	<footer><p>footer de ejemplo</p></footer>
-
+		<div class="footer-copy-redes">
+			<div class="main-copy-redes">
+				<div class="footer-copy">
+					&copy; 2020 - Todos los derechos reservados - PáginaPrincipal 
+				</div>
+				<div class="footer-redes">
+					<a><img src="fa facebook"></a> 
+					<a><img src="fa facebook"></a>
+					<a><img src="fa facebook"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
