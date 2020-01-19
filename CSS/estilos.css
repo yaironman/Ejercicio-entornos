@@ -121,11 +121,12 @@ body
 
 
 aside{
-	margin-top: -330px;
-	margin-left: 20px;
+	margin-top: 0px;
+	margin-left: 0px;
 	float: right;
+	position: relative;
 	width: 30%;
-    margin-right: 50px;
+    margin-right: 0px;
 }
 
 img-aside{
@@ -271,7 +272,19 @@ input {
 
 
 
+section.index{
 
+	width: 69%;
+
+
+}
+section.contacto{
+
+	width: 80%;
+	position: center;
+	background-color:rgb(192, 209, 212);
+
+}
 
 
 
